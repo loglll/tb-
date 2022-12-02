@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/themes/roma.js"></script>
+
+</head>
+<body>
+    <div id="4e35177ff8f544b2b27d3d36ec3d21a8" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_4e35177ff8f544b2b27d3d36ec3d21a8 = echarts.init(
+            document.getElementById('4e35177ff8f544b2b27d3d36ec3d21a8'), 'roma', {renderer: 'canvas'});
+        var option_4e35177ff8f544b2b27d3d36ec3d21a8 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "pie",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "(0,100)",
+                    "value": 928
+                },
+                {
+                    "name": "[100,200)",
+                    "value": 440
+                },
+                {
+                    "name": "[200,300)",
+                    "value": 310
+                },
+                {
+                    "name": "[300,400)",
+                    "value": 219
+                },
+                {
+                    "name": "[400,+\u221e)",
+                    "value": 142
+                }
+            ],
+            "radius": [
+                "15%",
+                "50%"
+            ],
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "label": {
+                "show": true,
+                "position": "top",
+                "color": "#404040",
+                "margin": 8,
+                "fontSize": 12,
+                "fontFamily": "Times New Roman",
+                "formatter": "{b}-\u6570\u91cf{c}-\u5360\u6bd4{d}%"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "(0,100)",
+                "[100,200)",
+                "[200,300)",
+                "[300,400)",
+                "[400,+\u221e)"
+            ],
+            "selected": {},
+            "show": false,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "color": [
+        "#0b2a4e",
+        "#C00000",
+        "#FFC000",
+        "#31869B",
+        "#F2F2F2"
+    ],
+    "title": [
+        {
+            "text": "\u4ef7\u683c\u533a\u95f4 \u997c\u56fe",
+            "padding": 5,
+            "itemGap": 10,
+            "textStyle": {
+                "fontFamily": "STXinwei",
+                "fontSize": 20
+            }
+        }
+    ]
+};
+        chart_4e35177ff8f544b2b27d3d36ec3d21a8.setOption(option_4e35177ff8f544b2b27d3d36ec3d21a8);
+    </script>
+</body>
+</html>
